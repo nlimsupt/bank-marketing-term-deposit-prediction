@@ -18,12 +18,13 @@ Predict whether a bank client will subscribe to a term deposit using classificat
 
 ### Evaluation Metrics
 - F1-score (minority class)
-- PR-AUC
+- PR-AUC 
 - ROC-AUC
+- Precision (class 1)
+- Recall (class 1)
 
 ### Tools
-Python, scikit-learn, imbalanced-learn, pandas, numpy, matplotlib
-(Google Colab and Local Jupyter Notebook)
+Python, scikit-learn, imbalanced-learn, pandas, numpy, matplotlib, Google Colab, and Local Jupyter Notebook
 
 ### Key Result
 - PCA did not improve Logistic Regression performance, indicating limited benefit for linear models in this dataset.
